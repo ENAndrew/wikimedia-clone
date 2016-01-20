@@ -3,3 +3,55 @@ html, body {
     padding:0;
 }
 
+.content {
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 135px;
+    padding-left: 23%;
+    margin-bottom: 30px;
+}
+
+p, a {
+    font-family: sans-serif;
+}
+
+.topText p {
+    font-size: 125%;
+    line-height: 1.5em;
+}
+
+.rightText {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #0645AD;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 80%;
+    line-height: 1.8em;
+}
+
+.footerLinks {
+    text-align: center;
+}
+
+.footerLinks a {
+    text-align: justify;
+    display: inline-block;
+    font-size: small;
+    padding: 0 15px 0 15px;
+}
+
+
