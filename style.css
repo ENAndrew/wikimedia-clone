@@ -10,7 +10,8 @@ html, body {
 }
 
 img {
-    max-width: 135px;
+    width: 135px;
+    height: auto;
     padding-left: 23%;
     margin-bottom: 30px;
 }
@@ -22,6 +23,10 @@ p, a {
 .topText p {
     font-size: 125%;
     line-height: 1.5em;
+}
+
+.topText {
+    margin-top: 60px;
 }
 
 .rightText {
@@ -52,6 +57,67 @@ a:focus, a:hover {
     display: inline-block;
     font-size: small;
     padding: 0 15px 0 15px;
+    margin-bottom: 30px;
 }
 
+@media (min-width: 410px) {
+    .content {
+        max-width: 390px;
+    }
+    
+    img {
+        width: 135px;
+        height: auto;
+        padding-left: 10%;
+        margin-bottom: 30px;
+    }
+}
 
+@media (min-width: 595px) {
+    .content {
+        max-width: 565px;
+    }
+    
+    img {
+        width: 135px;
+        height: auto;
+        padding-left: 5%;
+        margin-bottom: 30px;
+    }    
+}
+
+@media (min-width: 780px) {
+    .content {
+        max-width: 1200px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    img {
+        width: 135px;
+        height: auto;
+        padding-left: 5%;
+        margin-bottom: 30px;
+    }
+    
+    .imageLinks {
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1250px) {
+    
+    .content, .topText {
+        margin-right: auto;
+        margin-left: auto;   
+    }
+    .content {
+        max-width: 1200px;
+    }
+    
+    .topText {
+        max-width: 1000px;
+    }
+}
